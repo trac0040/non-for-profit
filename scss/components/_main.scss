@@ -1,3 +1,5 @@
+//////////////////////////////////////////////// footer styling
+
 .hide-text{
 	text-indent: 100%;
 	white-space: nowrap;
@@ -5,10 +7,50 @@
 	display: block;
 }
 
+.ease-all{
+		-webkit-transition: all 350ms ease-in-out;
+		-moz-transition: all 350ms ease-in-out;
+    -ms-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+		transition: all 350ms ease-in-out;
+}
+////////////////////////////////////////////search starts
+.search-form {
+	margin-left: 2em;
+}
+
+form{
+	float: left;
+	position:relative;
+}
+
+.search {
+	padding:6px 15px 6px 30px;
+	margin:3px;
+	background: url('./images/search.png') no-repeat 8px 6px;
+	background-color: white;
+}
+
+.rounded {
+	border-radius:15px;
+}
+
+input[type=text]{
+	color:#bcbcbc;
+}
+
+.search-label {
+	position: absolute;
+	top: -10em;
+}
+
+///////////////////////////////////////// search ends
+
 .footer-social {
 	float: none;
 	margin-top: 2em;
-	margin-right: 2em;
+	margin-left: 6em;
+	margin-bottom:2em;
 }
 
 ul {
@@ -27,7 +69,7 @@ ul {
 	float: left;
 	height: 40px;
 	width: 40px;
-	padding-top: .1em;
+	padding-top: .8em;
 	text-align: center;
 	margin-left: 1rem;
 
@@ -51,13 +93,13 @@ ul {
 .social li a:hover,
 .social li a:focus,
 .social li a:active{
-	-webkit-box-shadow: inset 0px 0px 0px 3px $light-teal;
-	-moz-box-shadow: inset 0px 0px 0px 3px $light-teal;
-	-ms-box-shadow: inset 0px 0px 0px 3px $light-teal;
-	-o-box-shadow: inset 0px 0px 0px 3px $light-teal;
-	box-shadow: inset 0px 0px 0px 3px $light-teal;
+	-webkit-box-shadow: inset 0px 0px 0px 3px $coral;
+	-moz-box-shadow: inset 0px 0px 0px 3px $coral;
+	-ms-box-shadow: inset 0px 0px 0px 3px $coral;
+	-o-box-shadow: inset 0px 0px 0px 3px $coral;
+	box-shadow: inset 0px 0px 0px 3px $coral;
 
-	color:$coral;
+	color:$grey;
 }
 
 footer {
@@ -75,20 +117,22 @@ footer p {
 }
 
 .footer-link {
-	padding-top: .5rem;
-	padding-left: .5rem;
-}
+	@include font-skinny;
+	}
 
 .footer-link a,
 .footer-link a:link,
 .footer-link a:visited {
+	text-decoration: none;
 	color: $light-teal;
+	border-bottom: 1px $light-teal solid;
 }
 
 .footer-link a:hover,
 .footer-link a:focus,
 .footer-link a:active {
-	color: $coral;
+	color: $grey;
+	border-bottom: 5px $grey solid;
 }
 
 .footer-link a:hover,
@@ -96,26 +140,31 @@ footer p {
 	outline: none;
 }
 
+.footer-address,
+	.footer-copywright,
+	.footer-link {
+		margin-left: 2em;
+		}
 
-@media screen and (min-width: 51.5625em) {
+
+@media screen and (min-width: 40em) {
 	footer {
 		height: 15em;
 	}
 
 	.footer-social {
-		overflow:auto;
+		margin-bottom: 0;
+		margin-right: 2em;
 	}
 
 	.social li{
 		float: right;
-		overflow: auto;
 	}
 
 	.footer-address,
 	.footer-copywright,
 	.footer-link {
 		float:left;
-		overflow:auto;
 		margin-left: 2em;
 	}
 

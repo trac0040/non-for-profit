@@ -1,3 +1,4 @@
+/* fonts */
 /* line 1, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .hide-text {
   text-indent: 100%;
@@ -6,11 +7,21 @@
   display: block; }
 
 /* line 8, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.footer-social {
+  float: none;
+  margin-top: 2em;
+  margin-right: 2em; }
+
+/* line 14, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 ul {
   list-style-type: none;
   text-decoration: none; }
 
-/* line 15, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 19, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.social li {
+  float: none; }
+
+/* line 25, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .social li a, .social li a:link, .social li a:visited {
   display: inline-block;
   float: left;
@@ -26,32 +37,64 @@ ul {
   -o-box-shadow: inset 0px 0px 0px 40px #EF4442;
   box-shadow: inset 0px 0px 0px 40px #EF4442; }
 
-/* line 43, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 53, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .social li a:hover, .social li a:focus, .social li a:active {
   -ms-box-shadow: inset 0px 0px 0px 3px #00A5B9;
   -o-box-shadow: inset 0px 0px 0px 3px #00A5B9;
   box-shadow: inset 0px 0px 0px 3px #00A5B9;
-  color: #00A5B9; }
+  color: #EF4442; }
 
-/* line 53, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 63, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 footer {
   width: 100%;
-  height: 10rem;
+  height: 20rem;
   background-color: #007d91;
   bottom: 0;
-  clear: both; }
+  clear: both;
+  font-family: 'Open-sans', sans-serif; }
 
-/* line 61, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 72, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 footer p {
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
+  font-family: 'Open-sans', sans-serif;
+  font-weight: 300;
   color: #fff; }
 
+/* line 77, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.footer-link {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem; }
+
+/* line 84, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.footer-link a, .footer-link a:link, .footer-link a:visited {
+  color: #00A5B9; }
+
+/* line 90, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.footer-link a:hover, .footer-link a:focus, .footer-link a:active {
+  color: #EF4442; }
+
+/* line 95, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.footer-link a:hover, .footer-link a:active {
+  outline: none; }
+
 @media screen and (min-width: 51.5625em) {
-  /* line 69, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 101, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  footer {
+    height: 15em; }
+
+  /* line 105, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  .footer-social {
+    overflow: auto; }
+
+  /* line 109, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .social li {
     float: right;
-    margin-right: 1.25em; }
+    overflow: auto; }
+
+  /* line 116, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  .footer-address, .footer-copywright, .footer-link {
+    float: left;
+    overflow: auto;
+    margin-left: 2em; }
  }
 
 @font-face {
@@ -1949,3 +1992,50 @@ footer p {
     display: inline-block;
     visibility: visible; }
  }
+
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+/* Paul Irish's Padding Fix
+http://paulirish.com/2012/box-sizing-border-box-ftw
+*/
+/* line 10, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+* {
+  box-sizing: border-box; }
+
+/* line 26, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 36, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block; }
+
+/* line 39, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+body {
+  line-height: 1; }
+
+/* line 42, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+ol, ul {
+  list-style: none; }
+
+/* line 45, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+blockquote, q {
+  quotes: none; }
+
+/* line 49, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 53, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }

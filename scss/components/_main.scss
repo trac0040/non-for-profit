@@ -1,0 +1,67 @@
+.hide-text{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+	display: inline-block;
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin-right: 1rem;
+	text-align: center;
+	padding-top: 0.8125rem;
+	margin-left: 1rem;
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+
+	color: #fff;
+
+
+	-webkit-box-shadow: inset 0px 0px 0px 40px #6a6d6d;
+	-moz-box-shadow: inset 0px 0px 0px 40px #6a6d6d;
+	-ms-box-shadow: inset 0px 0px 0px 40px #6a6d6d;
+	-o-box-shadow: inset 0px 0px 0px 40px #6a6d6d;
+	box-shadow: inset 0px 0px 0px 40px #6a6d6d;
+}
+
+.social li a:hover,
+.social li a:focus,
+.social li a:active{
+	-webkit-box-shadow: inset 0px 0px 0px 3px #6a6d6d;
+	-moz-box-shadow: inset 0px 0px 0px 3px #6a6d6d;
+	-ms-box-shadow: inset 0px 0px 0px 3px #6a6d6d;
+	-o-box-shadow: inset 0px 0px 0px 3px #6a6d6d;
+	box-shadow: inset 0px 0px 0px 3px #6a6d6d;
+
+	color:#6a6d6d;
+}
+
+footer {
+	width: 100%;
+	height: 10rem;
+	background-color: #ECF4F4;
+	bottom: 0;
+	clear: both;
+}
+
+footer p {
+	padding-top: .5rem;
+	padding-left: .5rem;
+	color: #6a6d6d;
+}
+
+
+@media screen and (min-width: 51.5625em) {
+	.social li{
+		float: right;
+	}

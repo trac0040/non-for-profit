@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+@font-face {
+  font-family: 'read-global-custom';
+  src: url('../font/read-global-custom.eot?83849949');
+  src: url('../font/read-global-custom.eot?83849949#iefix') format('embedded-opentype'), url('../font/read-global-custom.woff?83849949') format('woff'), url('../font/read-global-custom.ttf?83849949') format('truetype'), url('../font/read-global-custom.svg?83849949#read-global-custom') format('svg');
+=======
 /* fonts */
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
@@ -50,6 +56,7 @@ table {
   font-family: 'read-global-custom';
   src: url('../font/read-global-custom.eot?83849949');
   src: url('../font/read-global-custom.eot?83849949#iefix') format('embedded-opentype'), url('../font/read-global-custom.woff?83849949') format('woff'), url('../font/read-global-custom.ttf?83849949') format('truetype'), url('../font/read-global-custom.svg?83849949#fontello') format('svg');
+>>>>>>> gh-pages
   font-weight: normal;
   font-style: normal; }
 
@@ -2146,6 +2153,91 @@ sub {
   padding-right: 0.375rem; }
 
 /* line 3, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+<<<<<<< HEAD
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+/* line 9, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+h1, h2 {
+  margin: 1em 0 0 0;
+  text-align: center; }
+
+/* line 13, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+h2 {
+  margin: 0 0 1em 0; }
+
+/* line 16, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+#container {
+  margin: 0 auto;
+  width: 50%; }
+
+/* line 20, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+#accordion input {
+  display: none; }
+
+/* line 23, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+#accordion label {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  height: 10rem;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin-bottom: 0.125em;
+  padding: 2em 1em;
+  z-index: 20;
+  font-size: 2.5em; }
+
+/* line 38, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+#accordion label:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400; }
+
+/* line 44, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+#accordion input:checked + label {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  color: white;
+  margin-bottom: 0; }
+
+/* line 50, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+#accordion article {
+  background: #fff;
+  height: 0px;
+  overflow: hidden;
+  z-index: 10; }
+
+/* line 56, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+#accordion article p {
+  padding: 1em; }
+
+/* line 61, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+#accordion input:checked ~ article {
+  height: auto;
+  margin-bottom: 0.125em; }
+
+/* line 68, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.accordion-bhutan {
+  background: url('../images/bhutan.jpg') no-repeat center center;
+  background-size: cover; }
+
+/* line 73, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.accordion-india {
+  background: url('../images/india-city-child.jpg') no-repeat center center;
+  background-size: cover; }
+
+/* line 78, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.accordion-nepal {
+  background: url('../images/nepal-landscape.jpg') no-repeat center center;
+  background-size: cover; }
+=======
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
@@ -2294,3 +2386,4 @@ footer p {
     float: left;
     margin-left: 2em; }
  }
+>>>>>>> gh-pages

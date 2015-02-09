@@ -1,0 +1,9 @@
+@mixin font-skinny {
+	font-family: $body;
+	font-weight: $font-light;
+}
+
+@mixin font-regular {
+	font-family: $body;
+	font-weight: $font-regular;
+}

@@ -2,7 +2,9 @@
 @import "mixins";
 
 // Component rules
+@import "components/reset";
 @import "components/read-global-custom";
 @import "components/grids";
 @import "components/typography";
 @import "components/main";
+

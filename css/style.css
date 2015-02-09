@@ -2169,12 +2169,15 @@ h2 {
 
 /* line 68, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .accordion-bhutan {
-  background: url('../images/bhutan.jpg') no-repeat center center; }
+  background: url('../images/bhutan.jpg') no-repeat center center;
+  background-size: cover; }
 
-/* line 72, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 73, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .accordion-india {
-  background: url('../images/india-city-child.jpg') no-repeat center center; }
+  background: url('../images/india-city-child.jpg') no-repeat center center;
+  background-size: cover; }
 
-/* line 76, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 78, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .accordion-nepal {
-  background: url('../images/nepal-landscape.jpg') no-repeat center center; }
+  background: url('../images/nepal-landscape.jpg') no-repeat center center;
+  background-size: cover; }

@@ -15,3 +15,43 @@
 	font-family: $body;
 	font-weight: $font-regular;
 }
+
+@mixin zero{
+  margin: 0;
+  padding: 0;
+}
+
+@mixin button($border-color, $hover-color, $text-color){
+  border: solid 3px $border-color;
+  color: $text-color;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+
+  &:hover{
+    border: solid 3px $hover-color;
+    color: $hover-color;
+  }
+}
+
+@mixin ease($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+// Hide text in an element
+@mixin hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block; // inline elements with this won't hide text unless set to block
+}
+
+@mixin show-text{
+  text-indent: 0;
+  white-space: normal;
+  overflow: visible;
+}

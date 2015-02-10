@@ -1,3 +1,231 @@
+/////////// header/nav starts ///////////
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+//PAGE BORDERS:
+
+html:before,html:after,body:before,body:after{
+    content:"";
+    background:$light-teal;
+    position:fixed;
+    display:block;
+    z-index:100;
+}
+
+html:before{
+    height:10px;
+    left:0;
+    right:0;
+    top:0;
+}
+html:after{
+    width:10px;
+    top:0;
+    right:0;
+    bottom:0;
+}
+body:before{
+    height:10px;
+    right:0;
+    bottom:0;
+    left:0;
+}
+body:after{
+    width:10px;
+    top:0;
+    bottom:0;
+    left:0;
+}
+
+//end of borders
+
+
+body{
+  font-family: sans-serif;
+  @include zero;
+  // Hides close button if there is no js
+  &.noscript .close-btn,
+  &.noscript .toggle-btn{
+    display: none;
+  }
+}
+
+header {
+  padding: 0 1em;
+  position: relative;
+  padding-top: 2em;
+  padding-bottom: 23em;
+
+  background: url("../img/kids.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  border-left: solid 10px $light-teal;
+  border-right: solid 10px $light-teal;
+  border-top: solid 10px $light-teal;
+
+  z-index: -99;
+}
+
+main{
+
+border-left: solid 10px $light-teal;
+border-right: solid 10px $light-teal;
+
+padding: 1em;
+  
+}
+
+h1{
+  font-family: $body;
+  font-weight: 300;
+  color: $teal;
+  margin-left: 0.25em;
+  display: inline;
+  font-size: 1.5em;
+}
+
+h2{
+  color: #fff;
+  font-family: $body;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-shadow: 2px 2px rgba(0,0,0,.5);
+}
+
+
+.header-text{
+  width: 50%;
+  margin-top: 3em;
+}
+
+.fat{
+  font-weight: 700;
+}
+
+.toggle-btn{
+  //position: absolute;
+  float: right;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+}
+
+.close-btn{
+  float: right;
+  clear: both;
+  margin-top: 2em;
+
+}
+
+.btn-donate{
+  @include button($light-teal, $dark-teal, $light-teal);
+  float: right;
+  font-size: 1em;
+  font-weight: 700;
+  margin-right: 0.5em;
+  padding: 0.35em;
+}
+
+.navigation ul{
+  @include zero;
+  clear: both;
+  li{
+    list-style-type: none;
+    display: block;
+    padding: 0.5em 0.75em;
+    text-align: center;
+    position: relative;
+    a{
+      text-decoration: none;
+      font-family:  $body;
+      color: $light-teal;
+      font-weight: 300;
+      font-size: 1.5em;
+      &:hover{
+        color: $dark-teal;
+        font-weight: 700;
+      }
+    }
+    }//li
+}//navigation
+
+.toggle-btn,
+.close-btn{
+  color: $light-teal;
+  height:40px;
+  width: 40px;
+  span{
+    @include hide-text;
+  }
+  i{
+    padding: 0.5em;
+    &:hover{
+      color: $dark-teal;
+    }
+  }
+  &:hover{
+    color: $dark-teal;
+  }
+}
+
+
+.site-wrapper{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 99;
+
+    .sliding-canvas{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform: translateX(0);
+      @include ease(all, 200ms, ease-in);
+    }//canvas
+
+    &[data-state="slide-open"] .sliding-canvas{
+      transform: translateX(-100%);
+    }
+
+    &[data-state="slide-open"]{
+      //allows nav to have a scroll bar when open
+      overflow: visible;
+    }
+
+  }//sitewrapper
+
+.slide-menu{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: -100%;
+  min-height: 600px;
+}
+
+/////////// header/nav ends ///////////
+
+
 //////////// ABOUT PAGE STYLING///////////////////////////////////// //pacifico -google font
 
 * {
@@ -21,7 +249,7 @@ h2 {
   display: none;
 }
 #accordion label {
-  @include skinny;
+  @include font-skinny;
   @include transition (all, 0.3s, ease-in-out);
   //border-radius: .25em;
   color: #fff;
@@ -38,7 +266,7 @@ h2 {
 #accordion label:hover {
   @include transition (all, 0.3s, ease-in-out);
   background-color:rgba(0,0,0,0.2);
-  @include fat;
+  @include font-regular;
 }
 
 #accordion input:checked + label {

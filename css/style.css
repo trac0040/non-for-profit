@@ -2277,7 +2277,7 @@ body {
 header {
   padding: 0 1em;
   position: relative;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 23em;
   background: url("../images/header-home.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -2302,16 +2302,16 @@ h1 {
   font-size: 1.5em; }
 
 /* line 107, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
-h2 {
+h3 {
   color: #fff;
   font-family: 'Open-sans', sans-serif;
   font-weight: 400;
   font-size: 1.5em;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.5); }
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  line-height: 1.5; }
 
-/* line 116, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 117, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .header-text {
-  width: 50%;
   margin-top: 3em; }
 
 /* line 121, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */

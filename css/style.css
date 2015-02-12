@@ -2423,11 +2423,10 @@ h3 {
   height: 100%;
   top: 0;
   bottom: 0;
-  right: -100%;
-  min-height: 600px; }
+  right: -100%; }
 
 /* line 224, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
-.home {
+.home-banner {
   padding: 1em;
   padding-bottom: 20em;
   background: url("../images/header-home.jpg") no-repeat center center fixed;

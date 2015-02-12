@@ -221,6 +221,13 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
   padding-left: 1.5em;
 }
 
+.counter {
+  font-size:3em;
+  font-family: 'Pacifico', cursive;
+  color: $dark-teal;
+  margin-bottom: 0.25em;
+}
+
 .video-container{
   background-color: $dark-teal;
   position: relative;

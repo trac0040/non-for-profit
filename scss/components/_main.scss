@@ -96,24 +96,6 @@ padding: 1em;
   
 }
 
-h1{
-  font-family: $body;
-  font-weight: 300;
-  color: $teal;
-  margin-left: 0.25em;
-  display: inline;
-  font-size: 1.5em;
-}
-
-h3{
-  color: #fff;
-  font-family: $body;
-  font-weight: 400;
-  font-size: 1.5em;
-  text-shadow: 2px 2px rgba(0,0,0,.5);
-  line-height: 1.5;
-}
-
 .fat{
   font-weight: 700;
 }
@@ -230,11 +212,27 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  margin-bottom: 1em;
 }
 
 .header-text{
   padding-top: 1.5em;
   padding-left: 1.5em;
+}
+
+.video-container{
+  background-color: $dark-teal;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.video{
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
 }
 
 

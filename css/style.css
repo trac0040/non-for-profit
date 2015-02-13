@@ -2448,21 +2448,22 @@ main {
   padding-bottom: 20em;
   background: url("../images/header-home.jpg") no-repeat center center fixed;
   background-size: cover;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  display: block; }
 
-/* line 219, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 220, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .header-text {
   padding-top: 1.5em;
   padding-left: 1.5em; }
 
-/* line 228, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 229, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .counter {
   font-size: 3em;
   font-family: 'Pacifico', cursive;
   color: #007d91;
   margin-bottom: 0.25em; }
 
-/* line 235, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 236, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .video-container {
   background-color: #007d91;
   position: relative;
@@ -2470,38 +2471,38 @@ main {
   margin: 0 auto;
   width: 100%; }
 
-/* line 243, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 244, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .video {
   position: relative;
   text-align: center;
   margin: 0 auto; }
 
-/* line 252, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 253, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   -moz-box-sizing: border-box; }
 
-/* line 258, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 259, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 h1, h2 {
   margin: 1em 0 0 0;
   text-align: center; }
 
-/* line 262, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 263, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 h2 {
   margin: 0 0 1em 0; }
 
-/* line 265, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 266, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #container {
   margin: 0 auto;
   width: 50%; }
 
-/* line 269, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 270, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion input {
   display: none; }
 
-/* line 272, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 273, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion label {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
@@ -2516,109 +2517,109 @@ h2 {
   z-index: 20;
   font-size: 2.5em; }
 
-/* line 287, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 288, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion label:hover {
   transition: all 0.3s ease-in-out;
   background-color: rgba(0, 0, 0, 0.2);
   font-family: 'Open-sans', sans-serif;
   font-weight: 400; }
 
-/* line 293, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 294, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion input:checked + label {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   color: white;
   margin-bottom: 0; }
 
-/* line 299, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 300, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion article {
   background: #fff;
   height: 0px;
   overflow: hidden;
   z-index: 10; }
 
-/* line 305, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 306, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion article p {
   padding: 1em; }
 
-/* line 310, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 311, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion input:checked ~ article {
   height: auto;
   margin-bottom: 0.125em; }
 
-/* line 317, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 318, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .accordion-bhutan {
   background: url('../images/bhutan.jpg') no-repeat center center;
   background-size: cover; }
 
-/* line 322, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 323, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .accordion-india {
   background: url('../images/india-city-child.jpg') no-repeat center center;
   background-size: cover; }
 
-/* line 327, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 328, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .accordion-nepal {
   background: url('../images/nepal-landscape.jpg') no-repeat center center;
   background-size: cover; }
 
-/* line 335, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 336, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   display: block; }
 
-/* line 342, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 343, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .ease-all {
   transition: all 350ms ease-in-out; }
 
-/* line 350, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 351, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .search-form {
   margin-left: 7em;
   margin-top: 2em;
   margin-bottom: 0; }
 
-/* line 356, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 357, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 form {
   float: left;
   position: relative;
   margin-bottom: 0; }
 
-/* line 362, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 363, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .search {
   padding: 6px 15px 6px 30px;
   background-color: white; }
 
-/* line 368, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 369, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .rounded {
   border-radius: 15px; }
 
-/* line 372, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 373, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 input[type=text] {
   color: #bcbcbc; }
 
-/* line 376, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 377, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .search-label {
   position: absolute;
   top: -10em; }
 
-/* line 383, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 384, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .footer-social {
   float: none;
   margin-top: 2em;
   margin-left: 6em;
   margin-bottom: 2em; }
 
-/* line 390, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 391, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 ul {
   list-style-type: none;
   text-decoration: none; }
 
-/* line 395, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 396, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .social li {
   float: none; }
 
-/* line 401, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 402, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .social li a, .social li a:link, .social li a:visited {
   display: inline-block;
   float: left;
@@ -2634,14 +2635,14 @@ ul {
   -o-box-shadow: inset 0px 0px 0px 40px #EF4442;
   box-shadow: inset 0px 0px 0px 40px #EF4442; }
 
-/* line 429, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 430, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .social li a:hover, .social li a:focus, .social li a:active {
   -ms-box-shadow: inset 0px 0px 0px 3px #EF4442;
   -o-box-shadow: inset 0px 0px 0px 3px #EF4442;
   box-shadow: inset 0px 0px 0px 3px #EF4442;
   color: #EF4442; }
 
-/* line 439, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 440, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 footer {
   width: 100%;
   height: 25rem;
@@ -2650,54 +2651,54 @@ footer {
   clear: both;
   font-family: 'Open-sans', sans-serif; }
 
-/* line 448, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 449, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 footer p {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
   color: #fff; }
 
-/* line 453, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 454, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .footer-link {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300; }
 
-/* line 459, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 460, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .footer-link a, .footer-link a:link, .footer-link a:visited {
   text-decoration: none;
   color: #00A5B9;
   border-bottom: 1px #00A5B9 solid; }
 
-/* line 467, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 468, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .footer-link a:hover, .footer-link a:focus, .footer-link a:active {
   font-family: 'Open-sans', sans-serif;
   font-weight: 400;
   color: #0091A5;
   border-bottom: 5px #0091A5 solid; }
 
-/* line 474, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 475, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .footer-link a:hover, .footer-link a:active {
   outline: none; }
 
-/* line 480, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 481, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .footer-address, .footer-copywright, .footer-link {
   margin-left: 2em; }
 
 @media only screen and (min-width: 40em) {
-  /* line 489, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  /* line 490, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   h1 {
     font-size: 1.8em; }
 
-  /* line 493, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  /* line 494, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .btn-donate {
     font-size: 1.2em; }
 
-  /* line 497, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  /* line 498, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .site-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     z-index: 99; }
-    /* line 503, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+    /* line 504, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
     .site-wrapper .sliding-canvas {
       width: 100%;
       height: 100%;
@@ -2706,16 +2707,16 @@ footer p {
           -ms-transform: translateX(0);
               transform: translateX(0);
       transition: all 200ms ease-in; }
-    /* line 511, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+    /* line 512, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
     .site-wrapper[data-state="slide-open"] .sliding-canvas {
       -webkit-transform: translateX(-100%);
           -ms-transform: translateX(-100%);
               transform: translateX(-100%); }
-    /* line 515, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+    /* line 516, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
     .site-wrapper[data-state="slide-open"] {
       overflow: visible; }
 
-  /* line 522, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  /* line 523, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .slide-menu {
     position: absolute;
     width: 100%;
@@ -2725,35 +2726,35 @@ footer p {
     right: -100%;
     min-height: 600px; }
 
-  /* line 532, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  /* line 533, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   footer {
     height: 20em; }
 
-  /* line 536, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  /* line 537, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .footer-social {
     margin-bottom: 0;
     margin-right: 2em;
     margin-top: 0; }
 
-  /* line 542, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  /* line 543, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .search-form {
     margin-right: 2em; }
 
-  /* line 546, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  /* line 547, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   form {
     float: right; }
 
-  /* line 550, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  /* line 551, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .social li {
     float: right; }
 
-  /* line 556, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  /* line 557, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .footer-address, .footer-copywright, .footer-link {
     float: left;
     margin-left: 2em; }
  }
 
-/* line 564, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+/* line 565, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 body.noscript .slide-menu {
   position: static;
   right: auto; }

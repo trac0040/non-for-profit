@@ -347,6 +347,31 @@ h2 {
     -o-transition: all 350ms ease-in-out;
 		transition: all 350ms ease-in-out;
 }
+
+///////////////////   BLOG STYLES   ///////////////////////
+
+.blog-large{
+  border: solid 1px $grey;
+  width: 100%;
+}
+
+.blog-image-large{
+  width: 100%;
+  padding: 0.5em;
+  border: solid 1px $teal;
+}
+
+.blog-small{
+  border: solid 1px $grey;
+  width: 100%;
+}
+
+.blog-image-small{
+  width: 100%;
+  padding: 0.5em;
+  border: solid 1px $teal;
+}
+
 ////////////////////////////search bar starts
 .search-form {
 	margin-left: 7em;

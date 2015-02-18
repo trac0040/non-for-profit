@@ -2105,129 +2105,133 @@ small, .milli {
   line-height: 1.8984;
   font-weight: 300; }
 
-/* line 126, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 125, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+a {
+  text-decoration: none; }
+
+/* line 130, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 sub, sup {
   font-size: 75%;
   line-height: 1px;
   position: relative;
   vertical-align: baseline; }
 
-/* line 133, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 137, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 sup {
   top: -0.5em; }
 
-/* line 137, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 141, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 sub {
   bottom: -0.25em; }
 
-/* line 141, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 145, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .text-left {
   text-align: left; }
 
-/* line 145, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 149, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .text-right {
   text-align: right; }
 
-/* line 149, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 153, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .text-center {
   text-align: center; }
 
-/* line 153, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 157, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .normal {
   font-weight: normal; }
 
-/* line 157, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 161, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .bold {
   font-weight: bold; }
 
-/* line 161, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 165, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .italic {
   font-style: italic; }
 
-/* line 165, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 169, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .push {
   margin-bottom: 1.5rem; }
 
-/* line 169, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 173, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .push-none, .push-0 {
   margin-bottom: 0; }
 
-/* line 173, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 177, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .push-double, .push-2 {
   margin-bottom: 3rem; }
 
-/* line 177, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 181, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .push-half, .push-1-2 {
   margin-bottom: 0.75rem; }
 
-/* line 181, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 185, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .push-quarter, .push-1-4 {
   margin-bottom: 0.375rem; }
 
-/* line 185, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 189, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-top, .pad-t {
   padding-top: 1.5rem; }
 
-/* line 189, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 193, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-bottom, .pad-b {
   padding-bottom: 1.5rem; }
 
-/* line 193, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 197, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-top-double, .pad-t-2 {
   padding-top: 3rem; }
 
-/* line 197, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 201, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-bottom-double, .pad-b-2 {
   padding-bottom: 3rem; }
 
-/* line 201, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 205, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-top-half, .pad-t-1-2 {
   padding-top: 0.75rem; }
 
-/* line 205, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 209, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-bottom-half, .pad-b-1-2 {
   padding-bottom: 0.75rem; }
 
-/* line 209, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 213, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-top-quarter, .pad-t-1-4 {
   padding-top: 0.375rem; }
 
-/* line 213, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 217, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-bottom-quarter, .pad-b-1-4 {
   padding-bottom: 0.375rem; }
 
-/* line 217, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 221, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .island {
   padding: 1.5rem; }
 
-/* line 221, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 225, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .island-double, .island-2 {
   padding: 3rem; }
 
-/* line 225, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 229, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .island-half, .island-1-2 {
   padding: 0.75rem; }
 
-/* line 229, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 233, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .island-quarter, .island-1-4 {
   padding: 0.375rem; }
 
-/* line 233, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 237, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .gutter {
   padding-left: 1.5rem;
   padding-right: 1.5rem; }
 
-/* line 238, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 242, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .gutter-double, .gutter-2 {
   padding-left: 3rem;
   padding-right: 3rem; }
 
-/* line 243, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 247, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .gutter-half, .gutter-1-2 {
   padding-left: 0.75rem;
   padding-right: 0.75rem; }
 
-/* line 248, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+/* line 252, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .gutter-quarter, .gutter-1-4 {
   padding-left: 0.375rem;
   padding-right: 0.375rem; }

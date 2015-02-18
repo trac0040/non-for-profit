@@ -248,6 +248,8 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 
+
+
 //////////// ABOUT PAGE STYLING///////////////////////////////////// //pacifico -google font
 
 * {
@@ -330,6 +332,34 @@ h2 {
   background-size: cover;
 }
 
+///////////////////   BLOG STYLES   ///////////////////////
+
+.blog-large{
+  width: 100%;
+}
+
+.blog-image-large{
+  width: 100%;
+  margin-bottom: 0.5em;
+  border: solid 3px $teal;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.blog-small{
+  border: solid 3px $teal;
+  width: 100%;
+}
+
+.blog-image-small{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
 ///////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////// footer styling
 
@@ -348,29 +378,6 @@ h2 {
 		transition: all 350ms ease-in-out;
 }
 
-///////////////////   BLOG STYLES   ///////////////////////
-
-.blog-large{
-  border: solid 1px $grey;
-  width: 100%;
-}
-
-.blog-image-large{
-  width: 100%;
-  padding: 0.5em;
-  border: solid 1px $teal;
-}
-
-.blog-small{
-  border: solid 1px $grey;
-  width: 100%;
-}
-
-.blog-image-small{
-  width: 100%;
-  padding: 0.5em;
-  border: solid 1px $teal;
-}
 
 ////////////////////////////search bar starts
 .search-form {

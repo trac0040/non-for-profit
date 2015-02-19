@@ -74,7 +74,7 @@ header {
   padding-bottom: 0.5em;
   background-color: $grey;
 
-  /* background: url("../images/header-home.jpg") no-repeat center center fixed; 
+  /* background: url("../images/header-home.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -93,7 +93,7 @@ border-left: solid 10px $light-teal;
 border-right: solid 10px $light-teal;
 
 padding: 1em;
-  
+
 }
 
 .fat{
@@ -207,7 +207,7 @@ padding: 1em;
 	padding: 1em;
 	padding-bottom: 20em;
 
-background: url("../images/header-home.jpg") no-repeat center center fixed; 
+background: url("../images/header-home.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -265,7 +265,7 @@ h2 {
 }
 #container {
     margin: 0 auto;
-    width: 50%;
+    //width: 50%;
 }
 #accordion input {
   display: none;
@@ -316,17 +316,17 @@ h2 {
 }
 
 .accordion-bhutan {
-  background: url('../images/bhutan.jpg')no-repeat center center;
+  background: url('../images/banner-bhutan.jpg')no-repeat center center;
   background-size: cover;
 }
 
 .accordion-india {
-  background: url('../images/india-city-child.jpg')no-repeat center center;
+  background: url('../images/banner-india.jpg')no-repeat center center;
   background-size: cover;
 }
 
 .accordion-nepal{
-  background: url('../images/nepal-landscape.jpg')no-repeat center center;
+  background: url('../images/banner-nepal.jpg')no-repeat center center;
   background-size: cover;
 }
 

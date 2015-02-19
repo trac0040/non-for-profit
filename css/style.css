@@ -2363,7 +2363,7 @@ main {
   font-weight: 700;
   margin-right: 0.5em;
   padding: 0.35em; }
-  /* line 31, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/mixins */
+  /* line 36, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/mixins */
   .btn-donate:hover {
     border: solid 3px #007d91;
     color: #007d91; }
@@ -2481,23 +2481,11 @@ main {
   text-align: center;
   margin: 0 auto; }
 
-/* line 253, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box; }
-
-/* line 259, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
-h1, h2 {
-  margin: 1em 0 0 0;
+/* line 255, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.why {
   text-align: center; }
 
-/* line 263, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
-h2 {
-  margin: 0 0 1em 0; }
-
-/* line 267, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 259, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .about-banner {
   padding: 1em;
   padding-bottom: 20em;
@@ -2506,15 +2494,15 @@ h2 {
   margin-bottom: 1em;
   display: block; }
 
-/* line 281, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 273, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 #container {
   margin: 0 auto; }
 
-/* line 285, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 277, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 #accordion input {
   display: none; }
 
-/* line 288, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 280, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 #accordion label {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
@@ -2529,60 +2517,59 @@ h2 {
   z-index: 20;
   font-size: 2.5em; }
 
-/* line 303, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 295, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 #accordion label:hover {
   transition: all 0.3s ease-in-out;
   background-color: rgba(0, 0, 0, 0.2);
   font-family: 'Open-sans', sans-serif;
   font-weight: 400; }
 
-/* line 309, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 301, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 #accordion input:checked + label {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   color: white;
   margin-bottom: 0; }
 
-/* line 315, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 307, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 #accordion article {
   background: #fff;
   height: 0px;
   overflow: hidden;
   z-index: 10; }
 
-/* line 321, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 313, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 #accordion article p {
   padding: 1em; }
 
-/* line 326, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 318, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 #accordion input:checked ~ article {
   height: auto;
   margin-bottom: 0.125em; }
 
-/* line 333, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 325, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .accordion-bhutan {
   background: url('../images/banner-bhutan.jpg') no-repeat center center;
   background-size: cover; }
 
-/* line 338, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 330, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .accordion-india {
   background: url('../images/banner-india.jpg') no-repeat center center;
   background-size: cover; }
 
-/* line 343, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 335, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .accordion-nepal {
   background: url('../images/banner-nepal.jpg') no-repeat center center;
   background-size: cover; }
 
-/* line 348, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 340, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .programs {
   font-family: 'Open-sans', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  margin: 2em;
-  float: none; }
+  margin-bottom: 0.25em; }
 
-/* line 355, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 346, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .accordion-titles {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
@@ -2591,97 +2578,114 @@ h2 {
   text-shadow: none;
   line-height: 1.5; }
 
-/* line 363, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 354, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .numbers {
+  font-size: 3em;
   text-shadow: none;
-  color: #0091A5;
+  color: #007d91;
   font-family: 'Pacifico', serif;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0; }
 
-/* line 370, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 364, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .numbers-list {
-  text-align: center; }
+  margin-bottom: 3em;
+  text-align: center;
+  color: #0091A5;
+  font-family: 'Open-sans', sans-serif;
+  font-weight: 700; }
 
-/* line 377, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/*
+.about-list {
+  text-align: center;
+}
+
+*/
+/* line 378, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.about-list ul li {
+  line-height: 1.5em; }
+
+/* line 387, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   display: block; }
 
-/* line 384, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 394, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .ease-all {
   transition: all 350ms ease-in-out; }
 
-/* line 394, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 404, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .blog-large {
   border: solid 1px #262626;
   width: 100%; }
 
-/* line 399, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 409, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .blog-image-large {
   width: 100%;
   padding: 0.5em;
   border: solid 1px #0091A5; }
 
-/* line 405, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 415, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .blog-small {
   border: solid 1px #262626;
   width: 100%; }
 
-/* line 410, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 420, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .blog-image-small {
   width: 100%;
   padding: 0.5em;
   border: solid 1px #0091A5; }
 
-/* line 417, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 427, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .search-form {
   margin-left: 7em;
   margin-top: 2em;
   margin-bottom: 0; }
 
-/* line 423, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 433, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 form {
   float: left;
   position: relative;
   margin-bottom: 0; }
 
-/* line 429, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 439, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .search {
   padding: 6px 15px 6px 30px;
   background-color: white; }
 
-/* line 435, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 445, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .rounded {
   border-radius: 15px; }
 
-/* line 439, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 449, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 input[type=text] {
   color: #bcbcbc; }
 
-/* line 443, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 453, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .search-label {
   position: absolute;
   top: -10em; }
 
-/* line 450, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 460, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .footer-social {
   float: none;
   margin-top: 2em;
   margin-left: 6em;
   margin-bottom: 2em; }
 
-/* line 457, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 467, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 ul {
   list-style-type: none;
   text-decoration: none; }
 
-/* line 462, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 472, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .social li {
   float: none; }
 
-/* line 468, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 478, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .social li a, .social li a:link, .social li a:visited {
   display: inline-block;
   float: left;
@@ -2697,70 +2701,71 @@ ul {
   -o-box-shadow: inset 0px 0px 0px 40px #EF4442;
   box-shadow: inset 0px 0px 0px 40px #EF4442; }
 
-/* line 496, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 506, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .social li a:hover, .social li a:focus, .social li a:active {
   -ms-box-shadow: inset 0px 0px 0px 3px #EF4442;
   -o-box-shadow: inset 0px 0px 0px 3px #EF4442;
   box-shadow: inset 0px 0px 0px 3px #EF4442;
   color: #EF4442; }
 
-/* line 506, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 516, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 footer {
   width: 100%;
-  height: 25rem;
+  height: 20rem;
   background-color: #262626;
   bottom: 0;
   clear: both;
   font-family: 'Open-sans', sans-serif; }
 
-/* line 515, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 525, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 footer p {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
   color: #fff; }
 
-/* line 520, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 530, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .footer-link {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300; }
 
-/* line 526, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 536, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .footer-link a, .footer-link a:link, .footer-link a:visited {
   text-decoration: none;
   color: #00A5B9;
   border-bottom: 1px #00A5B9 solid; }
 
-/* line 534, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 544, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .footer-link a:hover, .footer-link a:focus, .footer-link a:active {
   font-family: 'Open-sans', sans-serif;
   font-weight: 400;
   color: #0091A5;
   border-bottom: 5px #0091A5 solid; }
 
-/* line 541, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 551, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .footer-link a:hover, .footer-link a:active {
   outline: none; }
 
-/* line 547, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 557, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .footer-address, .footer-copywright, .footer-link {
-  margin-left: 2em; }
+  margin-left: 2em;
+  font-size: 0.6em; }
 
 @media only screen and (min-width: 40em) {
-  /* line 556, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 567, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   h1 {
     font-size: 1.8em; }
 
-  /* line 560, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 571, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .btn-donate {
     font-size: 1.2em; }
 
-  /* line 564, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 575, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .site-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     z-index: 99; }
-    /* line 570, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+    /* line 581, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
     .site-wrapper .sliding-canvas {
       width: 100%;
       height: 100%;
@@ -2769,16 +2774,16 @@ footer p {
           -ms-transform: translateX(0);
               transform: translateX(0);
       transition: all 200ms ease-in; }
-    /* line 578, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+    /* line 589, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
     .site-wrapper[data-state="slide-open"] .sliding-canvas {
       -webkit-transform: translateX(-100%);
           -ms-transform: translateX(-100%);
               transform: translateX(-100%); }
-    /* line 582, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+    /* line 593, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
     .site-wrapper[data-state="slide-open"] {
       overflow: visible; }
 
-  /* line 589, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 600, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .slide-menu {
     position: absolute;
     width: 100%;
@@ -2788,35 +2793,35 @@ footer p {
     right: -100%;
     min-height: 600px; }
 
-  /* line 599, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 610, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   footer {
     height: 20em; }
 
-  /* line 603, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 614, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .footer-social {
     margin-bottom: 0;
     margin-right: 2em;
     margin-top: 0; }
 
-  /* line 609, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 620, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .search-form {
     margin-right: 2em; }
 
-  /* line 613, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 624, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   form {
     float: right; }
 
-  /* line 617, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 628, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .social li {
     float: right; }
 
-  /* line 623, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 634, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .footer-address, .footer-copywright, .footer-link {
     float: left;
     margin-left: 2em; }
  }
 
-/* line 631, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 642, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 body.noscript .slide-menu {
   position: static;
   right: auto; }

@@ -16,6 +16,11 @@
 	font-weight: $font-regular;
 }
 
+@mixin font-fat {
+  font-family: $body;
+  font-weight: $font-fat;
+}
+
 @mixin zero{
   margin: 0;
   padding: 0;

@@ -74,7 +74,7 @@ header {
   padding-bottom: 0.5em;
   background-color: $grey;
 
-  /* background: url("../images/header-home.jpg") no-repeat center center fixed; 
+  /* background: url("../images/header-home.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -93,7 +93,7 @@ border-left: solid 10px $light-teal;
 border-right: solid 10px $light-teal;
 
 padding: 1em;
-  
+
 }
 
 .fat{
@@ -207,7 +207,7 @@ padding: 1em;
 	padding: 1em;
 	padding-bottom: 20em;
 
-background: url("../images/header-home.jpg") no-repeat center center fixed; 
+background: url("../images/header-home.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -248,24 +248,31 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 
-//////////// ABOUT PAGE STYLING///////////////////////////////////// //pacifico -google font
+//////////// ABOUT PAGE STYLING///////////////////////////////////// //
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-h1, h2 {
-  margin: 1em 0 0 0;
+
+
+.why {
   text-align: center;
 }
-h2 {
-  margin: 0 0 1em 0;
+
+.about-banner{
+  padding: 1em;
+  padding-bottom: 20em;
+
+background: url("../images/slider-3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  margin-bottom: 1em;
+  display: block;
 }
+
 #container {
     margin: 0 auto;
-    width: 50%;
+    //width: 50%;
 }
 #accordion input {
   display: none;
@@ -316,19 +323,63 @@ h2 {
 }
 
 .accordion-bhutan {
-  background: url('../images/bhutan.jpg')no-repeat center center;
+  background: url('../images/banner-bhutan.jpg')no-repeat center center;
   background-size: cover;
 }
 
 .accordion-india {
-  background: url('../images/india-city-child.jpg')no-repeat center center;
+  background: url('../images/banner-india.jpg')no-repeat center center;
   background-size: cover;
 }
 
 .accordion-nepal{
-  background: url('../images/nepal-landscape.jpg')no-repeat center center;
+  background: url('../images/banner-nepal.jpg')no-repeat center center;
   background-size: cover;
 }
+
+.programs {
+  @include font-regular;
+  text-transform: uppercase;
+  margin-bottom: .25em;
+}
+
+.accordion-titles {
+  @include font-skinny;
+  color: $dark-teal;
+  font-size: 1em;
+  text-shadow: none;
+  line-height: 1.5;
+}
+
+.numbers {
+  font-size: 3em;
+  text-shadow: none;
+  color: $dark-teal;
+  font-family: $fancy;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.numbers-list {
+  margin-bottom: 3em;
+  text-align: center;
+  color: $teal;
+  @include font-fat;
+}
+
+/*
+.about-list {
+  text-align: center;
+}
+
+*/
+
+.about-list ul li {
+  line-height: 1.5em;
+}
+
+
 
 ///////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////// footer styling
@@ -464,7 +515,7 @@ ul {
 
 footer {
 	width: 100%;
-	height: 25rem;
+	height: 20rem;
 	background-color: $grey;
 	bottom: 0;
 	clear: both;
@@ -505,6 +556,7 @@ footer p {
 	.footer-copywright,
 	.footer-link {
 		margin-left: 2em;
+    font-size: .6em;
 		}
 
 

@@ -115,7 +115,7 @@ padding: 1em;
 }
 
 .btn-donate{
-  @include button($light-teal, $dark-teal, $light-teal);
+  @include button($light-teal, $coral, $light-teal);
   float: right;
   font-size: 1em;
   font-weight: 700;
@@ -373,11 +373,29 @@ h2 {
 
 .empower{
   background-color: $light-teal;
-  width: 70%;
+  width: 60%;
   position: relative;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 2em;
+  display: block;
+}
+
+.btn-donate-white{
+  @include button(white, $dark-teal, white);
+  font-size: 1em;
+  font-weight: 700;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  padding: 0.35em;
+}
+
+.share{
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: white;
+
 }
 
 ///////////////////////////////////////////////////////////////////////////////

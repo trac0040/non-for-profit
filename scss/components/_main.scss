@@ -330,6 +330,21 @@ h2 {
   background-size: cover;
 }
 
+.accordion-titles {
+  @include font-skinny;
+  color: $dark-teal;
+  float: none;
+  font-size: 1em;
+  text-shadow: none;
+  line-height: 1.5;
+}
+
+.numbers {
+  text-shadow: none;
+  color: $teal;
+  font-family: $fancy;
+}
+
 ///////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////// footer styling
 

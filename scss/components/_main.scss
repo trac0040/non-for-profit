@@ -248,7 +248,7 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 
-//////////// ABOUT PAGE STYLING///////////////////////////////////// //pacifico -google font
+//////////// ABOUT PAGE STYLING///////////////////////////////////// //
 
 * {
   margin: 0;
@@ -263,6 +263,21 @@ h1, h2 {
 h2 {
   margin: 0 0 1em 0;
 }
+
+.about-banner{
+  padding: 1em;
+  padding-bottom: 20em;
+
+background: url("../images/slider-3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  margin-bottom: 1em;
+  display: block;
+}
+
 #container {
     margin: 0 auto;
     //width: 50%;
@@ -330,10 +345,16 @@ h2 {
   background-size: cover;
 }
 
+.programs {
+  @include font-regular;
+  text-transform: uppercase;
+  margin: 2em;
+  float:none;
+}
+
 .accordion-titles {
   @include font-skinny;
   color: $dark-teal;
-  float: none;
   font-size: 1em;
   text-shadow: none;
   line-height: 1.5;
@@ -343,6 +364,11 @@ h2 {
   text-shadow: none;
   color: $teal;
   font-family: $fancy;
+  text-align: center;
+}
+
+.numbers-list {
+  text-align: center;
 }
 
 ///////////////////////////////////////////////////////////////////////////////

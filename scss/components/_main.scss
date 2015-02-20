@@ -115,7 +115,7 @@ padding: 1em;
 }
 
 .btn-donate{
-  @include button($light-teal, $dark-teal, $light-teal);
+  @include button($light-teal, $coral, $light-teal);
   float: right;
   font-size: 1em;
   font-weight: 700;
@@ -248,7 +248,13 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 
+<<<<<<< HEAD
+
+
+//////////// ABOUT PAGE STYLING///////////////////////////////////// //pacifico -google font
+=======
 //////////// ABOUT PAGE STYLING///////////////////////////////////// //
+>>>>>>> gh-pages
 
 
 
@@ -337,6 +343,73 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
+<<<<<<< HEAD
+///////////////////   BLOG INCLUDE STYLES   ///////////////////////
+
+.blog-large{
+  width: 100%;
+}
+
+.blog-image-large{
+  width: 100%;
+  border: solid 3px $teal;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.blog-small{
+  border: solid 3px $teal;
+  width: 100%;
+}
+
+.blog-image-small{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+///////////////////   BLOG *PAGE* STYLES   ///////////////////////
+
+.sidebar{
+  background-color: $light-teal;
+  width: 100%;
+}
+
+.blog-main{
+  width: 100%;
+}
+
+.empower{
+  background-color: $light-teal;
+  width: 60%;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  display: block;
+}
+
+.btn-donate-white{
+  @include button(white, $dark-teal, white);
+  font-size: 1em;
+  font-weight: 700;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  padding: 0.35em;
+}
+
+.share{
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: white;
+
+}
+=======
 .programs {
   @include font-regular;
   text-transform: uppercase;
@@ -380,6 +453,7 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 }
 
 
+>>>>>>> gh-pages
 
 ///////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////// footer styling
@@ -399,7 +473,12 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 		transition: all 350ms ease-in-out;
 }
 
+<<<<<<< HEAD
+
+////////////////////////////search bar starts
+=======
 ///////search bar starts
+>>>>>>> gh-pages
 .search-form {
   margin-left: 7em;
   margin-top: 2em;
@@ -606,6 +685,32 @@ footer p {
   right: -100%;
   min-height: 600px;
 }
+
+////////  BLOG *PAGE*   /////////
+
+.sidebar{
+  background-color: $light-teal;
+  width: 30%;
+  height: 100%;
+  min-height: 40em;
+  float: right;
+  clear: none;
+}
+
+.blog-main{
+  width: 70%;
+  float: left;
+  clear: none;
+}
+
+.blog-other{
+  width: 100%;
+  float: none;
+  display: block;
+  clear: both;
+}
+
+///////// footer
 
 	footer {
 		height: 20em;

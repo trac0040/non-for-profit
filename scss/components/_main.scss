@@ -74,7 +74,7 @@ header {
   padding-bottom: 0.5em;
   background-color: $grey;
 
-  /* background: url("../images/header-home.jpg") no-repeat center center fixed; 
+  /* background: url("../images/header-home.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -93,7 +93,7 @@ border-left: solid 10px $light-teal;
 border-right: solid 10px $light-teal;
 
 padding: 1em;
-  
+
 }
 
 .fat{
@@ -207,7 +207,7 @@ padding: 1em;
 	padding: 1em;
 	padding-bottom: 20em;
 
-background: url("../images/header-home.jpg") no-repeat center center fixed; 
+background: url("../images/header-home.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -248,26 +248,37 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 
+<<<<<<< HEAD
 
 
 //////////// ABOUT PAGE STYLING///////////////////////////////////// //pacifico -google font
+=======
+//////////// ABOUT PAGE STYLING///////////////////////////////////// //
+>>>>>>> gh-pages
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-h1, h2 {
-  margin: 1em 0 0 0;
+
+
+.why {
   text-align: center;
 }
-h2 {
-  margin: 0 0 1em 0;
+
+.about-banner{
+  padding: 1em;
+  padding-bottom: 20em;
+
+background: url("../images/slider-3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  margin-bottom: 1em;
+  display: block;
 }
+
 #container {
     margin: 0 auto;
-    width: 50%;
+    //width: 50%;
 }
 #accordion input {
   display: none;
@@ -318,20 +329,21 @@ h2 {
 }
 
 .accordion-bhutan {
-  background: url('../images/bhutan.jpg')no-repeat center center;
+  background: url('../images/banner-bhutan.jpg')no-repeat center center;
   background-size: cover;
 }
 
 .accordion-india {
-  background: url('../images/india-city-child.jpg')no-repeat center center;
+  background: url('../images/banner-india.jpg')no-repeat center center;
   background-size: cover;
 }
 
 .accordion-nepal{
-  background: url('../images/nepal-landscape.jpg')no-repeat center center;
+  background: url('../images/banner-nepal.jpg')no-repeat center center;
   background-size: cover;
 }
 
+<<<<<<< HEAD
 ///////////////////   BLOG INCLUDE STYLES   ///////////////////////
 
 .blog-large{
@@ -397,6 +409,51 @@ h2 {
   color: white;
 
 }
+=======
+.programs {
+  @include font-regular;
+  text-transform: uppercase;
+  margin-bottom: .25em;
+}
+
+.accordion-titles {
+  @include font-skinny;
+  color: $dark-teal;
+  font-size: 1em;
+  text-shadow: none;
+  line-height: 1.5;
+}
+
+.numbers {
+  font-size: 3em;
+  text-shadow: none;
+  color: $dark-teal;
+  font-family: $fancy;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.numbers-list {
+  margin-bottom: 3em;
+  text-align: center;
+  color: $teal;
+  @include font-fat;
+}
+
+/*
+.about-list {
+  text-align: center;
+}
+
+*/
+
+.about-list ul li {
+  line-height: 1.5em;
+}
+
+
+>>>>>>> gh-pages
 
 ///////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////// footer styling
@@ -416,141 +473,170 @@ h2 {
 		transition: all 350ms ease-in-out;
 }
 
+<<<<<<< HEAD
 
 ////////////////////////////search bar starts
+=======
+///////search bar starts
+>>>>>>> gh-pages
 .search-form {
-	margin-left: 7em;
-	margin-top: 2em;
-	margin-bottom: 0;
+  margin-left: 7em;
+  margin-top: 2em;
+  margin-bottom: 0;
 }
 
 form{
-	float: left;
-	position:relative;
-	margin-bottom: 0
+  float: left;
+  position:relative;
+  margin-bottom: 0
 }
 
 .search {
-	padding:6px 15px 6px 30px;
-	//margin:3px;
-	background-color: white;
+  padding:6px 15px 6px 30px;
+  //margin:3px;
+  background-color: white;
 }
 
 .rounded {
-	border-radius:15px;
+  border-radius:15px;
 }
 
 input[type=text]{
-	color:#bcbcbc;
+  color:#bcbcbc;
 }
 
 .search-label {
-	position: absolute;
-	top: -10em;
+  position: absolute;
+  top: -10em;
 }
 
-/////////////////////////////// search bar ends
+//////// search bar ends (footer)
 
 .footer-social {
-	float: none;
-	margin-top: 2em;
-	margin-left: 6em;
-	margin-bottom:2em;
+  float: none;
+  margin-top: 2em;
+  margin-left: 6em;
+  margin-bottom:2em;
 }
 
 ul {
-	list-style-type: none;
-	text-decoration: none;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .social li {
-	float: none;
+  float: none;
 }
 
 .social li a,
 .social li a:link,
 .social li a:visited{
-	display: inline-block;
-	float: left;
-	height: 40px;
-	width: 40px;
-	padding-top: .8em;
-	text-align: center;
-	margin-left: 1rem;
+  display: inline-block;
+  float: left;
+  height: 40px;
+  width: 40px;
+  padding-top: .8em;
+  text-align: center;
+  margin-left: 1rem;
 
 
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	-ms-border-radius: 20px;
-	-o-border-radius: 20px;
-	border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
 
-	color: #fff;
+  color: #fff;
 
 
-	-webkit-box-shadow: inset 0px 0px 0px 40px $coral;
-	-moz-box-shadow: inset 0px 0px 0px 40px $coral;
-	-ms-box-shadow: inset 0px 0px 0px 40px $coral;
-	-o-box-shadow: inset 0px 0px 0px 40px $coral;
-	box-shadow: inset 0px 0px 0px 40px $coral;
+  -webkit-box-shadow: inset 0px 0px 0px 40px $coral;
+  -moz-box-shadow: inset 0px 0px 0px 40px $coral;
+  -ms-box-shadow: inset 0px 0px 0px 40px $coral;
+  -o-box-shadow: inset 0px 0px 0px 40px $coral;
+  box-shadow: inset 0px 0px 0px 40px $coral;
 }
 
 .social li a:hover,
 .social li a:focus,
 .social li a:active{
-	-webkit-box-shadow: inset 0px 0px 0px 3px $coral;
-	-moz-box-shadow: inset 0px 0px 0px 3px $coral;
-	-ms-box-shadow: inset 0px 0px 0px 3px $coral;
-	-o-box-shadow: inset 0px 0px 0px 3px $coral;
-	box-shadow: inset 0px 0px 0px 3px $coral;
+  -webkit-box-shadow: inset 0px 0px 0px 3px $coral;
+  -moz-box-shadow: inset 0px 0px 0px 3px $coral;
+  -ms-box-shadow: inset 0px 0px 0px 3px $coral;
+  -o-box-shadow: inset 0px 0px 0px 3px $coral;
+  box-shadow: inset 0px 0px 0px 3px $coral;
 
-	color:$coral;
+  color:$coral;
 }
 
 footer {
-	width: 100%;
-	height: 25rem;
-	background-color: $grey;
-	bottom: 0;
-	clear: both;
-	font-family: $body;
+  width: 100%;
+  height: 20rem;
+  background-color: $grey;
+  bottom: 0;
+  clear: both;
+  font-family: $body;
 }
 
 footer p {
-	@include font-skinny;
-	color: #fff;
+  @include font-skinny;
+  color: #fff;
 }
 
 .footer-link {
-	@include font-skinny;
-	}
+  @include font-skinny;
+  }
 
 .footer-link a,
 .footer-link a:link,
 .footer-link a:visited {
-	text-decoration: none;
-	color: $light-teal;
-	border-bottom: 1px $light-teal solid;
+  text-decoration: none;
+  color: $light-teal;
+  border-bottom: 1px $light-teal solid;
 }
 
 .footer-link a:hover,
 .footer-link a:focus,
 .footer-link a:active {
-	@include font-regular;
-	color: $teal;
-	border-bottom: 5px $teal solid;
+  @include font-regular;
+  color: $teal;
+  border-bottom: 5px $teal solid;
 }
 
 .footer-link a:hover,
 .footer-link a:active {
-	outline: none;
+  outline: none;
 }
 
 .footer-address,
-	.footer-copywright,
-	.footer-link {
-		margin-left: 2em;
-		}
+  .footer-copywright,
+  .footer-link {
+    margin-left: 2em;
+    font-size: .6em;
+    }
+
+///////////////////   BLOG STYLES   ///////////////////////
+
+.blog-large{
+  border: solid 1px $grey;
+  width: 100%;
+}
+
+.blog-image-large{
+  width: 100%;
+  padding: 0.5em;
+  border: solid 1px $teal;
+}
+
+.blog-small{
+  border: solid 1px $grey;
+  width: 100%;
+}
+
+.blog-image-small{
+  width: 100%;
+  padding: 0.5em;
+  border: solid 1px $teal;
+}
 
 
 ////////// MEDIA QUERY MEDIUM //////////
@@ -662,3 +748,53 @@ body.noscript .slide-menu{
   position: static;
   right: auto;
 }
+
+
+
+//////////////////////////////////////////Contact Page////////////////
+
+.contact-banner{
+  padding: 1em;
+  padding-bottom: 5em;
+
+background: url("../images/header-contact.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  margin-bottom: 1em;
+  display: block;
+}
+
+.country {
+  width: 100px;
+  height: 100px;
+  margin-bottom: .5em;
+}
+
+.contact-page-padding {
+  margin-left: 2em;
+}
+
+.contact-h1 {
+  font-family: $fancy;
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 5em;
+}
+
+.contact-h2 {
+  @include font-regular;
+  margin-bottom: 0;
+  font-size: 1.25em;
+}
+
+.contact-page-address {
+  @include font-regular;
+  font-size: 1em;
+}
+
+
+
+

@@ -1,4 +1,4 @@
-/////////// header/nav starts ///////////
+/////////// header/nav starts
 
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
@@ -201,7 +201,7 @@ padding: 1em;
   //min-height: 600px;
 }
 
-/////////////////////// HOME PAGE STYLING /////////////////////
+/////////////////////// HOME PAGE STYLING
 
 .home-banner{
 	padding: 1em;
@@ -247,16 +247,7 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
   margin: 0 auto;
 }
 
-
-<<<<<<< HEAD
-
-
-//////////// ABOUT PAGE STYLING///////////////////////////////////// //pacifico -google font
-=======
-//////////// ABOUT PAGE STYLING///////////////////////////////////// //
->>>>>>> gh-pages
-
-
+//////////// ABOUT PAGE STYLING
 
 .why {
   text-align: center;
@@ -343,9 +334,7 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
-<<<<<<< HEAD
-///////////////////   BLOG INCLUDE STYLES   ///////////////////////
-
+///////////////////   BLOG INCLUDE STYLES
 .blog-large{
   width: 100%;
 }
@@ -372,8 +361,7 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 
 }
 
-///////////////////   BLOG *PAGE* STYLES   ///////////////////////
-
+///////////////////   BLOG *PAGE* STYLES
 .sidebar{
   background-color: $light-teal;
   width: 100%;
@@ -409,7 +397,7 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
   color: white;
 
 }
-=======
+
 .programs {
   @include font-regular;
   text-transform: uppercase;
@@ -453,9 +441,9 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 }
 
 
->>>>>>> gh-pages
 
-///////////////////////////////////////////////////////////////////////////////
+
+
 //////////////////////////////////////////////// footer styling
 
 .hide-text{
@@ -473,12 +461,12 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 		transition: all 350ms ease-in-out;
 }
 
-<<<<<<< HEAD
 
-////////////////////////////search bar starts
-=======
+
+
+
 ///////search bar starts
->>>>>>> gh-pages
+
 .search-form {
   margin-left: 7em;
   margin-top: 2em;
@@ -614,7 +602,7 @@ footer p {
     font-size: .6em;
     }
 
-///////////////////   BLOG STYLES   ///////////////////////
+///////////////////   BLOG STYLES
 
 .blog-large{
   border: solid 1px $grey;
@@ -639,7 +627,7 @@ footer p {
 }
 
 
-////////// MEDIA QUERY MEDIUM //////////
+////////// MEDIA QUERY MEDIUM
 
 @media only screen and (min-width: 40em){
 
@@ -686,7 +674,7 @@ footer p {
   min-height: 600px;
 }
 
-////////  BLOG *PAGE*   /////////
+////////  BLOG *PAGE*
 
 .sidebar{
   background-color: $light-teal;
@@ -751,8 +739,7 @@ body.noscript .slide-menu{
 
 
 
-//////////////////////////////////////////Contact Page////////////////
-
+//////////////////////////////////////////Contact Page
 .contact-banner{
   padding: 1em;
   padding-bottom: 5em;

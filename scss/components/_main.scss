@@ -251,6 +251,7 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 
 .why {
   text-align: center;
+  padding-top:2em;
 }
 
 .about-banner{
@@ -767,7 +768,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 
 .wrapper-contact {
   margin-left: 7%;
-  right: 5%;
+  margin-right: 7%;
 }
 
 /*
@@ -802,6 +803,29 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
   @include font-skinny;
   font-size: .75em;
 }
+
+
+//////////////////// Donate Page
+
+.donate-banner{
+  padding: 1em;
+  padding-bottom: 5em;
+
+background: url("../images/header-donate.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  margin-bottom: 1em;
+  display: block;
+}
+
+.teal-background {
+  background-color: $light-teal;
+  width: 100%;
+}
+
 
 
 

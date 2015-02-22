@@ -398,6 +398,8 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 
 }
 
+///about styles continued
+
 .programs {
   @include font-regular;
   text-transform: uppercase;
@@ -568,6 +570,8 @@ footer {
 footer p {
   @include font-skinny;
   color: #fff;
+  font-size: .6em;
+
 }
 
 .footer-link {
@@ -755,32 +759,50 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 }
 
 .country {
+  margin-left: 2em;
   width: 100px;
   height: 100px;
-  margin-bottom: .5em;
+  margin-bottom: .75em;
 }
 
+.wrapper-contact {
+  margin-left: 7%;
+  right: 5%;
+}
+
+/*
 .contact-page-padding {
   margin-left: 2em;
 }
+*/
 
 .contact-h1 {
   font-family: $fancy;
   text-align: center;
   margin-left: 0;
-  margin-bottom: 5em;
+  padding-bottom: 5em;
+  line-height: 5em;
 }
 
 .contact-h2 {
-  @include font-regular;
+  @include font-skinny;
+  color: $dark-teal;
   margin-bottom: 0;
-  font-size: 1.25em;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 .contact-page-address {
   @include font-regular;
-  font-size: 1em;
+  margin-bottom: .5em;
+  line-height: 1.2em;
 }
+
+.contact-address-info {
+  @include font-skinny;
+  font-size: .75em;
+}
+
 
 
 

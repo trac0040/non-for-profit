@@ -3024,14 +3024,72 @@ body.noscript .slide-menu {
   background-size: cover;
   display: block; }
 
-/* line 868, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
-.donate-form {
-  margin-left: 10%;
-  position: relative;
-  z-index: 100; }
-
 @media only screen and (min-width: 40em) {
-  /* line 876, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 870, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .donate-icon {
     margin-left: 33%; }
  }
+
+/* line 878, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.donate-form {
+  float: left;
+  position: relative;
+  z-index: 100; }
+
+/* line 884, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+input:focus {
+  box-shadow: 0 0 3000px 3000px rgba(151, 125, 48, 0.3);
+  position: relative;
+  z-index: 99999; }
+
+/*
+body {
+  background: #EFEFEF;
+  font-weight: bold;
+  font-family: "Lucida Grande", sans-serif;
+  padding: 20px;
+  color: #333;
+  font-size: 12px;
+  letter-spacing: -1px;
+}
+*/
+/* line 902, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+input {
+  font-size: 21px;
+  font-weight: bold;
+  display: block;
+  margin: 20px 0;
+  outline: 0;
+  border: 0;
+  padding: 10px 10px;
+  font-size: 13px;
+  width: 300px;
+  border-radius: 4px;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5); }
+
+/* line 916, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.button {
+  border-top: 1px solid #00A5B9;
+  background: #007d91;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 0;
+  text-shadow: rgba(0, 0, 0, 0.8) 0 1px 0;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  vertical-align: middle;
+  width: auto; }
+
+/* line 938, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.button:hover {
+  border-top-color: #EF4442;
+  background: #ffffff;
+  color: #EF4442;
+  text-shadow: none;
+  cursor: pointer; }
+
+/* line 945, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.button:active {
+  border-top-color: #ffffff;
+  background: #ffffff; }

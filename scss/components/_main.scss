@@ -877,27 +877,17 @@ background: url("../images/form-bg.jpg") no-repeat center center;
 //////////////////////////donate form
 .donate-form {
   float: left;
+  margin-left: 7%;
   position: relative;
   z-index:100;
 }
 
 input:focus {
-  box-shadow: 0 0 3000px 3000px rgba(151, 125, 48, 0.3);
+  box-shadow: 0 0 3000px 3000px rgba(0, 165, 185, 0.3);
   position: relative;
   z-index: 99999;
 }
 
-/*
-body {
-  background: #EFEFEF;
-  font-weight: bold;
-  font-family: "Lucida Grande", sans-serif;
-  padding: 20px;
-  color: #333;
-  font-size: 12px;
-  letter-spacing: -1px;
-}
-*/
 
 input {
   font-size: 21px;
@@ -916,11 +906,11 @@ input {
 .button {
    border-top: 1px solid $light-teal;
    background: $dark-teal;
-   background: -webkit-gradient(linear, left top, left bottom, from(#bda96e), to(#666933));
-   background: -webkit-linear-gradient(top, #bda96e, #666933);
-   background: -moz-linear-gradient(top, #bda96e, #666933);
-   background: -ms-linear-gradient(top, #bda96e, #666933);
-   background: -o-linear-gradient(top, #bda96e, #666933);
+   background: -webkit-gradient(linear, left top, left bottom, from(#00A5B9), to(#007d91));
+   background: -webkit-linear-gradient(top, #00A5B9, #007d91);
+   background: -moz-linear-gradient(top, #00A5B9, #007d91);
+   background: -ms-linear-gradient(top, #00A5B9, #007d91);
+   background: -o-linear-gradient(top, #00A5B9, #007d91);
    padding: 10px 16px;
    -webkit-border-radius: 8px;
    -moz-border-radius: 8px;

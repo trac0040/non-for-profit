@@ -849,11 +849,10 @@ background: url("../images/header-donate.jpg") no-repeat center center fixed;
 }
 
 .donate-img{
-  z-index: 1;
   position: relative;
   padding: 1em;
-  padding-bottom: 5em;
-  height: 20em;
+  height: 40em;
+  z-index: 1;
 
 background: url("../images/form-bg.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -876,7 +875,7 @@ background: url("../images/form-bg.jpg") no-repeat center center;
 
 //////////////////////////donate form
 .donate-form {
-  float: left;
+  float: none;
   margin-left: 7%;
   position: relative;
   z-index:100;

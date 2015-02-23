@@ -251,6 +251,9 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 
 .why {
   text-align: center;
+  padding-top:2em;
+  //margin-left: 24rem;
+
 }
 
 .about-banner{
@@ -467,7 +470,7 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 
 
 
-///////search bar starts
+///////search bar starts///////////Footer
 
 .search-form {
   margin-left: 7em;
@@ -500,7 +503,7 @@ input[type=text]{
   top: -10em;
 }
 
-//////// search bar ends (footer)
+///////////////////// search bar ends Footer
 
 .footer-social {
   float: none;
@@ -767,7 +770,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 
 .wrapper-contact {
   margin-left: 7%;
-  right: 5%;
+  margin-right: 7%;
 }
 
 /*
@@ -804,6 +807,69 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 }
 
 
+//////////////////// Donate Page
+
+.donate-icon {
+  width: 150px;
+  height: 150px;
+  margin-bottom: .75em;
+  margin-left: 28%;
+  margin-right: 7%;
+}
+
+.donate-banner{
+  padding: 1em;
+  padding-bottom: 5em;
+
+background: url("../images/header-donate.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  margin-bottom: 1em;
+  display: block;
+}
+
+.teal-background {
+  background-color: $light-teal;
+  width: 100%;
+}
+
+.donate-page-titles {
+  @include font-regular;
+  margin-bottom: .5em;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.donate-page-subtitles {
+  @include font-skinny;
+  line-height: .5em;
+}
+
+.donate-img{
+  padding: 1em;
+  padding-bottom: 5em;
+  height: 20em;
+
+background: url("../images/form-bg.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  //margin-bottom: 1em;
+  display: block;
+}
+
+@media only screen and (min-width: 40em){
+
+.donate-icon {
+  margin-left: 33%;
+}
+
+}
 
 
 

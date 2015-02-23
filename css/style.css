@@ -2939,7 +2939,7 @@ body.noscript .slide-menu {
 
 /* line 771, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .wrapper-contact {
-  margin-left: 25%;
+  margin-left: 7%;
   margin-right: 7%; }
 
 /*
@@ -2979,11 +2979,13 @@ body.noscript .slide-menu {
 
 /* line 812, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-icon {
-  width: 200px;
-  height: 200px;
-  margin-bottom: 0.75em; }
+  width: 150px;
+  height: 150px;
+  margin-bottom: 0.75em;
+  margin-left: 28%;
+  margin-right: 7%; }
 
-/* line 818, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 820, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-banner {
   padding: 1em;
   padding-bottom: 5em;
@@ -2992,28 +2994,26 @@ body.noscript .slide-menu {
   margin-bottom: 1em;
   display: block; }
 
-/* line 832, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 834, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .teal-background {
   background-color: #00A5B9;
   width: 100%; }
 
-/* line 837, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 839, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-page-titles {
   font-family: 'Open-sans', sans-serif;
   font-weight: 400;
   margin-bottom: 0.5em;
   line-height: 1.2em;
-  margin-left: 1.25em;
-  color: #fff; }
+  text-align: center; }
 
 /* line 846, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-page-subtitles {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
-  line-height: 0.5em;
-  color: #fff; }
+  line-height: 0.5em; }
 
-/* line 852, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 851, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-img {
   padding: 1em;
   padding-bottom: 5em;
@@ -3023,8 +3023,7 @@ body.noscript .slide-menu {
   display: block; }
 
 @media only screen and (min-width: 40em) {
-  /* line 870, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
-  .wrapper-contact {
-    margin-left: 10%;
-    margin-right: 7%; }
+  /* line 868, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  .donate-icon {
+    margin-left: 33%; }
  }

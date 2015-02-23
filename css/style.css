@@ -3015,6 +3015,8 @@ body.noscript .slide-menu {
 
 /* line 851, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-img {
+  z-index: 1;
+  position: relative;
   padding: 1em;
   padding-bottom: 5em;
   height: 20em;
@@ -3022,8 +3024,14 @@ body.noscript .slide-menu {
   background-size: cover;
   display: block; }
 
+/* line 868, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.donate-form {
+  margin-left: 10%;
+  position: relative;
+  z-index: 100; }
+
 @media only screen and (min-width: 40em) {
-  /* line 868, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 876, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .donate-icon {
     margin-left: 33%; }
  }

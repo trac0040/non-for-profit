@@ -849,6 +849,8 @@ background: url("../images/header-donate.jpg") no-repeat center center fixed;
 }
 
 .donate-img{
+  z-index: 1;
+  position: relative;
   padding: 1em;
   padding-bottom: 5em;
   height: 20em;
@@ -861,6 +863,12 @@ background: url("../images/form-bg.jpg") no-repeat center center;
 
   //margin-bottom: 1em;
   display: block;
+}
+
+.donate-form {
+  margin-left: 10%;
+  position: relative;
+  z-index:100;
 }
 
 @media only screen and (min-width: 40em){

@@ -252,6 +252,7 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 .why {
   text-align: center;
   padding-top:2em;
+  position:relative;
   //margin-left: 24rem;
 
 }
@@ -272,7 +273,7 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 
 #container {
     margin: 0 auto;
-    //width: 50%;
+    width: 75%;
 }
 #accordion input {
   display: none;
@@ -563,11 +564,12 @@ ul {
 
 footer {
   width: 100%;
-  height: 20rem;
+  //height: 20rem;
   background-color: $grey;
   bottom: 0;
   clear: both;
   font-family: $body;
+  padding-top: 1em;
 }
 
 footer p {
@@ -579,6 +581,7 @@ footer p {
 
 .footer-link {
   @include font-skinny;
+  margin-bottom: 2em;
   }
 
 .footer-link a,
@@ -707,9 +710,6 @@ footer p {
 
 ///////// footer
 
-	footer {
-		height: 20em;
-	}
 
 	.footer-social {
 		margin-bottom: 0;
@@ -848,11 +848,14 @@ background: url("../images/header-donate.jpg") no-repeat center center fixed;
   line-height: .5em;
 }
 
+.donate-section {
+  position: relative;
+  margin: 0 auto;
+}
+
 .donate-img{
   position: relative;
-  padding: 1em;
-  height: 40em;
-  z-index: 1;
+  padding-top: 52%;
 
 background: url("../images/form-bg.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -860,8 +863,6 @@ background: url("../images/form-bg.jpg") no-repeat center center;
   -o-background-size: cover;
   background-size: cover;
 
-  //margin-bottom: 1em;
-  display: block;
 }
 
 @media only screen and (min-width: 40em){
@@ -876,9 +877,9 @@ background: url("../images/form-bg.jpg") no-repeat center center;
 //////////////////////////donate form
 .donate-form {
   float: none;
-  margin-left: 7%;
-  position: relative;
-  z-index:100;
+  margin-left: 40%;
+  position: absolute;
+  top: 2em;
 }
 
 input:focus {
@@ -902,7 +903,7 @@ input {
   box-shadow:inset 0 0 2px rgba(0,0,0,0.5);
 }
 
-.button {
+.form-button {
    border-top: 1px solid $light-teal;
    background: $dark-teal;
    background: -webkit-gradient(linear, left top, left bottom, from(#00A5B9), to(#007d91));
@@ -924,14 +925,16 @@ input {
    vertical-align: middle;
     width: auto;
    }
-.button:hover {
+
+.form-button:hover {
    border-top-color: $coral;
    background: #ffffff;
    color: $coral;
    text-shadow: none;
    cursor: pointer;
    }
-.button:active {
+
+.form-button:active {
    border-top-color: #ffffff;
    background: #ffffff;
    }

@@ -63,63 +63,62 @@ title: Donate · READ Global
 
 		<div class="donate-img"></div>
 
-<div class="donate-form">
+		<div class="donate-form">
 
-	<div class="grid wrapper-contact">
+			<div class="grid wrapper-contact">
 
-		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+				<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 donate-form-left">
 
-			<form action ="{{site.baseurl}}/thanks.html" method ="post" class="donate-form">
+					<form action ="{{site.baseurl}}/thanks.html" method ="post" class="donate-form">
 
-				  <input type="text" placeholder="Full Name" />
-				  <input type="text" placeholder="Address" />
-				  <input type="text" placeholder="City, Province" />
-				  <input type="text" placeholder="Email"/>
-						<div>
-						  <select class="payment-method" id="card">
-						  	<option>Payment Method</option>
-						  	<option>Visa</option>
-						  	<option>Mastercard</option>
-						  	<option>American Express</option>
-						  </select>
-						</div>
-				  <input type="text" placeholder="Card Number" />
-				  <input type="text" placeholder="Expiration eg. 01/18" />
-				  <input type="text" placeholder="Security Code"/>
+						  <input type="text" placeholder="Full Name" />
+						  <input type="text" placeholder="Address" />
+						  <input type="text" placeholder="City, Province" />
+						  <input type="text" placeholder="Email"/>
+								<div>
+								  <select class="payment-method" id="card">
+								  	<option>Payment Method</option>
+								  	<option>Visa</option>
+								  	<option>Mastercard</option>
+								  	<option>American Express</option>
+								  </select>
+								</div>
+						  <input type="text" placeholder="Card Number" />
+						  <input type="text" placeholder="Expiration eg. 01/18" />
+						  <input type="text" placeholder="Security Code"/>
+
+					</div> <!-- closes unit-->
+
+					<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 donate-form-right">
+
+						<div class="radio">
+							<fieldset>
+							<legend> Donation Amount</legend>
+
+				    		<input type="radio" id="fifty" name="amount">
+				    		<label for="fifty">$50 </label>
+
+				    		<input type="radio" id="one-hundred" name="amount">
+				    		<label for="one-hundred">$100 </label>
+
+				    		<input type="radio" id="two-hundred" name="amount">
+				    		<label for="two-hundred">$250 </label>
+
+				    		<input type="radio" id="five-hundred" name="amount">
+				    		<label for="five-hundred">$500 </label>
+
+				    		<input type="radio" id="one-thousand" name="amount">
+				    		<label for="one-thousand">$1000 </label>
+
+							</fieldset>
+						</div> <!-- closes radio-->
+
+					<input type="text" placeholder="Other $" name="amount" />
+					<input type="submit" class="form-button" />
 
 			</div> <!-- closes unit-->
 
-				<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-
-					<div class="radio">
-						<fieldset class="radio">
-						<legend> Donation Amount</legend>
-
-			    		<input class="radio" type="radio" id="fifty" name="amount">
-			    		<label for="fifty">$50 </label>
-
-			    		<input class="radio" type="radio" id="one-hundred" name="amount">
-			    		<label for="one-hundred">$100 </label>
-
-			    		<input class="radio" type="radio" id="two-hundred" name="amount">
-			    		<label for="two-hundred">$250 </label>
-
-			    		<input class="radio" type="radio" id="five-hundred" name="amount">
-			    		<label for="five-hundred">$500 </label>
-
-			    		<input class="radio" type="radio" id="one-thousand" name="amount">
-			    		<label for="one-thousand">$1000 </label>
-
-						</fieldset>
-
-					</div> <!-- closes radio-->
-					<input type="text" placeholder="Other $" />
-
-				<input type="submit" class="form-button" />
-
-			</div> <!-- closes unit-->
-
-		</form>
+			</form>
 
 		</div> <!-- closes grid -->
 		</div> <!--wrapper-contact -->

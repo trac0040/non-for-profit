@@ -900,13 +900,29 @@ input:focus {
   font-weight: bold;
 }
 
+legend {
+  padding-top: 4em;
+  font-size: 13px;
+  color: rgba(0,0,0,0.5);
+  font-weight: bold;
+}
+
 .radio {
+  margin-bottom: 0;
+}
+.radio input{
   display: inline-block;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+  width: 10px;
 }
 
 label {
   color: rgba(0,0,0,0.5);
   font-size: 13px;
+  margin-right: 10px;
+  margin-left: 0;
 }
 
 

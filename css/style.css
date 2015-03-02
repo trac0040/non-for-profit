@@ -3053,15 +3053,32 @@ input:focus {
   font-weight: bold; }
 
 /* line 903, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
-.radio {
-  display: inline-block; }
-
-/* line 907, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
-label {
+legend {
+  padding-top: 4em;
+  font-size: 13px;
   color: rgba(0, 0, 0, 0.5);
-  font-size: 13px; }
+  font-weight: bold; }
+
+/* line 910, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.radio {
+  margin-bottom: 0; }
 
 /* line 913, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.radio input {
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+  width: 10px; }
+
+/* line 921, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+label {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  margin-right: 10px;
+  margin-left: 0; }
+
+/* line 929, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 input {
   font-weight: bold;
   display: block;
@@ -3074,7 +3091,7 @@ input {
   border-radius: 4px;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5); }
 
-/* line 926, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 942, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .form-button {
   border: 1px solid #00A5B9;
   background: #007d91;
@@ -3087,7 +3104,7 @@ input {
   vertical-align: middle;
   width: auto; }
 
-/* line 949, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 965, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .form-button:hover {
   border: 1px solid #EF4442;
   background: #ffffff;
@@ -3095,7 +3112,7 @@ input {
   text-shadow: none;
   cursor: pointer; }
 
-/* line 957, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 973, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .form-button:active {
   border: 1px solid #ffffff;
   background: #ffffff; }

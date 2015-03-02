@@ -251,6 +251,7 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 
 .why {
   text-align: center;
+  font-family: $fancy;
   padding-top:2em;
   position:relative;
   //margin-left: 24rem;
@@ -782,7 +783,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 .contact-h1 {
   font-family: $fancy;
   text-align: center;
-  margin-left: 0;
+  margin-left: 40%;
   padding-bottom: 5em;
   line-height: 5em;
 }
@@ -819,7 +820,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 
 .donate-banner{
   padding: 1em;
-  padding-bottom: 5em;
+  padding-bottom: 45%;
 
 background: url("../images/header-donate.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -836,8 +837,14 @@ background: url("../images/header-donate.jpg") no-repeat center center fixed;
   width: 100%;
 }
 
+.donate-h2 {
+  color: #fff;
+  margin-left: 0;
+}
+
 .donate-page-titles {
   @include font-regular;
+  color: #fff;
   margin-bottom: .5em;
   line-height: 1.2em;
   text-align: center;
@@ -998,6 +1005,10 @@ input {
   float: right;
   z-index: 45;
   margin-left: 25em;
+}
+
+.donate-page-subtitles {
+ margin-bottom: 5em;
 }
 
 }

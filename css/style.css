@@ -3033,8 +3033,6 @@ body.noscript .slide-menu {
 /* line 878, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-form {
   float: none;
-  margin-left: 40%;
-  position: absolute;
   top: 2em; }
 
 /* line 885, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
@@ -3043,9 +3041,28 @@ input:focus {
   position: relative;
   z-index: 99999; }
 
-/* line 892, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 891, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.payment-method {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 0 2px rgba 0, 0, 0, 0.5;
+  width: 250px;
+  padding: 10px 10px;
+  height: 40px;
+  font-weight: bold; }
+
+/* line 903, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.radio {
+  display: inline-block; }
+
+/* line 907, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+label {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px; }
+
+/* line 913, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 input {
-  font-size: 21px;
   font-weight: bold;
   display: block;
   margin: 20px 0;
@@ -3053,16 +3070,15 @@ input {
   border: 0;
   padding: 10px 10px;
   font-size: 13px;
-  width: 300px;
+  width: 250px;
   border-radius: 4px;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5); }
 
-/* line 906, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 926, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .form-button {
-  border-top: 1px solid #00A5B9;
+  border: 1px solid #00A5B9;
   background: #007d91;
   padding: 10px 16px;
-  border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 1px 0;
   text-shadow: rgba(0, 0, 0, 0.8) 0 1px 0;
   color: white;
@@ -3071,15 +3087,15 @@ input {
   vertical-align: middle;
   width: auto; }
 
-/* line 929, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 949, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .form-button:hover {
-  border-top-color: #EF4442;
+  border: 1px solid #EF4442;
   background: #ffffff;
   color: #EF4442;
   text-shadow: none;
   cursor: pointer; }
 
-/* line 937, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 957, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .form-button:active {
-  border-top-color: #ffffff;
+  border: 1px solid #ffffff;
   background: #ffffff; }

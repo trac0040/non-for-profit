@@ -63,22 +63,58 @@ title: Donate · READ Global
 
 		<div class="donate-img"></div>
 
-			<div class="donate-form">
-				<form class="donate-form">
-				  <input type="text" placeholder="First Name" />
-				  <input type="text" placeholder="Last Name" />
-				  <input type="text" placeholder="Email"/>
+<div class="donate-form">
+
+	<div class="grid wrapper-contact">
+
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+
+				<form action ="thans.html" method ="post" class="donate-form">
+				  <input type="text" placeholder="Full Name" />
 				  <input type="text" placeholder="Address" />
 				  <input type="text" placeholder="City, Province" />
-				  <input type="text" placeholder="Card Type" />
-				  <input type="text" placeholder="Card Number" />
-				  <input type="text" placeholder="Expiration Date" />
-				  <input type="text" placeholder="Donation Amount $$$$$" />
-				  <input type="submit" class="form-button" />
-				</form>
-			</div>
+				  <input type="text" placeholder="Email"/>
 
-	</div>
+
+				<div>
+				  <select class="payment-method" id="card">
+				  	<option>Payment Method</option>
+				  	<option>Visa</option>
+				  	<option>Mastercard</option>
+				  	<option>American Express</option>
+				  </select>
+				</div>
+
+				  <input type="text" placeholder="Card Number" />
+				  <input type="text" placeholder="Expiration eg. 01/18" />
+				  <input type="text" placeholder="Security Code"/>
+
+		</div> <!-- closes unit-->
+
+	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+		<div class="radio">
+			<fieldset>
+    		<input type="radio" id="5" name="amount">
+    		<label for="5">5$</label>
+
+    		<input type="radio" id="10" name="fav-color">
+    		<label for="10">10$</label>
+
+    		<input type="radio" id="20$" name="fav-color">
+    		<label for="20">20$</label>
+			</fieldset>
+		</div> <!-- closes radio-->
+
+				<input type="submit" class="form-button" />
+
+		</div> <!-- closes unit-->
+		</form>
+
+		</div> <!-- closes grid -->
+		</div> <!--wrapper-contact -->
+	</div> <!--closes donate-form -->
+	</div> <!-- closes donate-section -->
+
 
 
 
